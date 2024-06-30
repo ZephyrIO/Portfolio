@@ -1,4 +1,27 @@
-.title {
+.header {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin: 8px;
+    align-self: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rebeccapurple;
+}
+
+h1 {
+    display: inline-block;
+    width: 100%;
+    margin: 20px;
+}
+
+h3 {
+    display: inline-block;
+    margin: 20px;
+}
+
+h3:hover {
+    text-decoration: underline;
+    text-decoration-color: pink;
+    color: lightsteelblue;
 }
