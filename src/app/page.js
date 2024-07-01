@@ -1,12 +1,12 @@
 import Header from "@/components/Header";
-import Title from '@/components/Title';
+import Info from "@/components/Info";
 
 export default function Home()
 {
     return (
         <div>
             <Header />
-            <Title />
+            <Info />
         </div>
     );
 }

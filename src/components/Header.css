@@ -1,6 +1,5 @@
 .header {
     display: flex;
-    justify-content: center;
     text-align: center;
     align-self: center;
     align-items: center;
@@ -11,13 +10,16 @@
 
 h1 {
     display: inline-block;
-    width: 100%;
     margin: 20px;
 }
 
 h3 {
     display: inline-block;
     margin: 20px;
+}
+
+.split {
+    margin-left: auto;
 }
 
 h3:hover {
