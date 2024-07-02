@@ -1,8 +1,12 @@
+import Header from "@/components/Header";
+import ProjectList from "@/components/ProjectList";
+
 export default function Projects ()
 {
     return (
         <div>
-            <h1>Test</h1>
+            <Header />
+            <ProjectList />
         </div>
     )
 }
