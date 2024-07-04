@@ -8,7 +8,7 @@ const nextConfig = {
         loader: "akamai",
         path: "",
     },
-    assetPrefix: '/',
+    assetPrefix: 'https://zephyrio.github.io/Portfolio/',
 };
 
 export default nextConfig;
