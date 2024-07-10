@@ -4,6 +4,7 @@ import cnb from '../../public/assets/CowsandBulls.png';
 import ttt from '../../public/assets/TicTacToe.png';
 import dodge from '../../public/assets/DodgetheCreeps.webp';
 import squash from '../../public/assets/SquashtheCreeps.webp';
+import ms from '../../public/assets/Minesweeper.png';
 
 import './ProjectList.css';
 
@@ -44,6 +45,13 @@ export default function ProjectList ()
                     <Image src={squash} alt="Squash the Creeps Demo Game from Godot Docs" />
                     <br />
                     Squash the Creeps
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/ZephyrIO/Minesweeper-Java">
+                    <Image src={ms} alt="Minesweeper in the Terminal" />
+                    <br />
+                    Minesweeper
                 </a>
             </div>
         </div>
