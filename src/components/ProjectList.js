@@ -49,7 +49,7 @@ export default function ProjectList ()
             </div>
             <div>
                 <a href="https://github.com/ZephyrIO/Minesweeper-Java">
-                    <Image src={ms} alt="Minesweeper in the Terminal" />
+                    <Image src={ms} alt="Minesweeper in the Terminal" width={500} height={375} />
                     <br />
                     Minesweeper
                 </a>
